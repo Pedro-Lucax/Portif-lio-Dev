@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo padrão: já para celular */
+body {
+    font-size: 16px;
+    padding: 10px;
+}
+
+nav {
+    border: 1px solid red;
+    display: flex;
+    width: 414px;
+    height: 99px;
+}
+
+.home {
+    border: 1px solid rgb(0, 255, 13);
+    width: 50px;
+    height: 20px;
+    margin: 39.5px 0 39.5px 24px;
+}
+
+.home a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.menu {
+    border: 1px solid rgb(0, 153, 255);
+    width: 204px;
+    height: 45px;
+    display: flex;
+    margin: 27px 24px 27px 120px;
+    gap: 32px;
+}
+
+.menu a {
+    margin: 12.5px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.botaomenu {
+    background-color: #5222d0;
+    width: 105px;
+    height: 45px;
+    border-radius: 6px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.botaomenu a {
+    color: white;
+    text-decoration: none;
+}
+
+.secao1{
+    border: 2px solid green;
+    width: 329.4px;
+    height: 569.54px;
+}
+
+.secao1 img{
+    border: 2px solid rgb(117, 0, 128);
+    width: 318.96px;
+    height: 238.77px;
+}
+
+
+/* Quando a tela for maior que 768px (tablet e desktop) */
+@media (min-width: 768px) {
+    body {
+        font-size: 18px;
+        padding: 20px;
+    }
+}
+
+/* Quando a tela for maior que 1024px (desktop grande) */
+@media (min-width: 1024px) {
+    body {
+        font-size: 20px;
+        padding: 30px;
+    }
+}
