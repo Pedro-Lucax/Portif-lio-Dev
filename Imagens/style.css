@@ -62,18 +62,55 @@ nav {
     text-decoration: none;
 }
 
-.secao1{
+.secao1 {
     border: 2px solid green;
     width: 329.4px;
     height: 569.54px;
     margin: 29px auto;
 }
 
-.secao1 img{
+.secao1 img {
     border: 2px solid rgb(117, 0, 128);
     width: 318.96px;
     height: 238.77px;
 }
+
+.developer {
+    border: 2px solid rgb(117, 0, 128);
+    text-align: center;
+    margin: 63.27px auto 12.5px;
+}
+
+.secao1 h1 {
+    text-align: center;
+    margin: 12.5px auto 16px;
+    color: #5222D0;
+
+}
+
+.descricao{
+    text-align: center;
+    color: #1F2626;
+    margin: 16px auto 16px;
+}
+
+.contactme2 {
+    background-color: #5222d0;
+    width: 134px;
+    height: 45px;
+    margin: 16px auto;
+    border-radius: 6px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.secao1 a {
+    color: white;
+    text-decoration: none;
+}
+
 
 
 /* Quando a tela for maior que 768px (tablet e desktop) */
