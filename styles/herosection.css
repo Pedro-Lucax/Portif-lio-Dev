@@ -1,0 +1,129 @@
+.secao1 {
+    border: 1px solid blue;
+    width: 329.4px;
+    height: 569.54px;
+    margin: 29px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.seta {
+    width: 32px;
+    height: 32px;
+    margin-top: 105px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    /* ajusta para o centro exato */
+    display: none;
+}
+
+.blogging1 {
+
+    width: 318.96px;
+    height: 238.77px;
+}
+
+.text {
+    font-family: Montserrat;
+}
+
+.text p {
+    margin: 63px 0px 12px 0px;
+    font-size: 16px;
+}
+
+.text h1 {
+    margin-bottom: 16px;
+    font-size: 40px;
+    color: #5222D0;
+}
+
+.text .ptext {
+    margin: 0px 0px 16px 0px;
+    font-size: 16px;
+}
+
+.text a {
+    display: block;
+    width: 134px;
+    height: 45px;
+    background-color: #5222D0;
+    border-radius: 6px;
+    color: white;
+    padding: 12px 20px 13px 20px;
+    margin: 16px auto 16px;
+}
+
+/* Quando a tela for maior que 600px (tablet e desktop) */
+@media (min-width: 600px) {
+    body {
+        font-size: 18px;
+        padding: 20px;
+    }
+
+    .secao1 {
+        display: flex;
+        flex-direction: row-reverse;
+        max-width: 1131px;
+        width: 80%;
+        gap: 78px;
+        justify-content: space-between;
+    }
+
+    .seta {
+        width: 32px;
+        height: 32px;
+        margin-top: 105px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);  /* ajusta para o centro exato */
+        display: block;
+    }
+
+    .text {
+
+        font-family: Montserrat;
+        width: 520px;
+        height: 278px;
+        text-align: left;
+    }
+
+    .text p {
+        margin: 0px 0px 10px 6px;
+    }
+
+    .text .ptext {
+        font-family: Montserrat;
+        margin-bottom: 29px;
+    }
+
+    .text h1 {
+        font-family: Montserrat;
+        font-size: 43px;
+        margin-bottom: 11px;
+    }
+
+    .text a {
+        display: block;
+        width: 144px;
+        height: 45px;
+        background-color: #5222D0;
+        border-radius: 6px;
+        color: white;
+        padding: 12px 20px 13px 20px;
+        margin-right: 400px;
+    }
+
+    .blogging1 {
+        width: 533px;
+        height: 400px;
+    }
+
+    .blogging1 img {
+        width: 100%;
+        height: 100%;
+    }
+}

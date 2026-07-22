@@ -1,0 +1,119 @@
+.projects {
+    border: 1px solid greenyellow;
+    width: 364px;
+    height: 1295px;
+    margin: 300px auto;
+}
+
+.projects h2 {
+    font-family: Montserrat;
+    font-size: 24px;
+    letter-spacing: 4%;
+    color: #151717;
+}
+
+.divprojects {
+    border: 1px solid rgb(0, 60, 255);
+    width: 363px;
+    height: 574px;
+    margin-top: 32px;
+    margin-bottom: 16px;
+    box-shadow: 2px 2px 32px 0 rgba(40, 38, 44, 0.15);
+    border-radius: 6px;
+}
+
+.divprojects img {
+    border: 1px solid rgb(255, 0, 0);
+    width: 363px;
+    height: 296px;
+}
+
+.divprojects h3 {
+    font-family: Montserrat;
+    font-size: 20px;
+    margin: 16px 0px 11px 18px;
+}
+
+.linksproject {
+    border: 1px solid rgb(21, 255, 0);
+    width: 313px;
+    height: 72px;
+    margin: 0px 0px 11px 18px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    /* 3 colunas */
+    gap: 12px;
+    /* espaçamento entre os itens */
+}
+
+.a1 {
+    border: 1px solid rgb(255, 0, 200);
+    width: 105px;
+    font-size: 10px;
+    background-color: #5222D0;
+    font-family: Montserrat;
+    border-radius: 4px;
+    color: white;
+    letter-spacing: 12%;
+    padding: 8px 16px;
+    display: flex;
+    justify-content: center;/* centraliza horizontalmente */
+    align-items: center;/* centraliza verticalmente */
+}
+
+.a2 {
+    border: 1px solid rgb(255, 0, 200);
+    width: 113px;
+    font-size: 10px;
+    background-color: #5222D0;
+    font-family: Montserrat;
+    border-radius: 4px;
+    color: white;
+    letter-spacing: 12%;
+    padding: 8px 16px;
+    display: flex;
+    justify-content: center;/* centraliza horizontalmente */
+    align-items: center;/* centraliza verticalmente */
+}
+
+.a3 {
+    border: 1px solid rgb(255, 0, 200);
+    width: 71px;
+    font-size: 10px;
+    background-color: #5222D0;
+    font-family: Montserrat;
+    border-radius: 4px;
+    color: white;
+    letter-spacing: 12%;
+    padding: 8px 16px;
+    display: flex;
+    justify-content: center;/* centraliza horizontalmente */
+    align-items: center;/* centraliza verticalmente */
+}
+
+.a4 {
+    border: 1px solid rgb(255, 0, 200);
+    width: 74px;
+    font-size: 10px;
+    font-family: Montserrat;
+    background-color: #5222D0;
+    border-radius: 4px;
+    color: white;
+    letter-spacing: 12%;
+    padding: 8px 16px;
+    display: flex;
+    justify-content: center;/* centraliza horizontalmente */
+    align-items: center;/* centraliza verticalmente */
+}
+
+
+.divprojects p {
+    border: 1px solid black;
+    width: 339px;
+    height: 120px;
+    margin: 0px 0px 11px 18px;
+    font-family: Montserrat;
+    letter-spacing: 4%;
+    font-size: 16px;
+    color: #1F2626;
+}

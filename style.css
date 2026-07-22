@@ -1,0 +1,23 @@
+@charset "UTF-8";
+@import url(styles/nav.css);
+@import url(styles/herosection.css);
+@import url(styles/aboutme.css);
+@import url(styles/projects.css);
+
+:root{
+    --bg-color-primary: #fafafa;
+    --bg-color-secundary: #041F31;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+

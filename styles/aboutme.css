@@ -1,0 +1,36 @@
+.aboutme {
+    border-left: 4px solid #5222d0;
+    /* cria a linha roxa */
+    padding-left: 10px;
+    /* afasta o texto da linha */
+    width: 320px;
+    height: 130px;
+    margin: 71px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutme h2 {
+    font-family: Montserrat;
+    font-size: 21px;
+    margin-bottom: 20px;
+    letter-spacing: 4%;
+}
+
+.aboutme p {
+    font-family: Montserrat;
+    letter-spacing: 4%;
+    font-size: 18px;
+}
+
+/* Quando a tela for maior que 600px (tablet e desktop) */
+@media (min-width: 600px) {
+    .aboutme {
+        width: 80%;
+        max-width: 1131px;
+        height: 169px;
+        margin: 356px auto;  /* centraliza igual ao bloco azul */
+        border: 1px solid red;
+        padding: 10px;
+    }
+}
