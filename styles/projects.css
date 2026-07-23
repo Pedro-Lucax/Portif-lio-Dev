@@ -1,5 +1,4 @@
 .projects {
-    border: 1px solid greenyellow;
     width: 364px;
     height: 1295px;
     margin: 300px auto;
@@ -13,7 +12,6 @@
 }
 
 .divprojects {
-    border: 1px solid rgb(0, 60, 255);
     width: 363px;
     height: 574px;
     margin-top: 32px;
@@ -23,7 +21,6 @@
 }
 
 .divprojects img {
-    border: 1px solid rgb(255, 0, 0);
     width: 363px;
     height: 296px;
 }
@@ -35,7 +32,6 @@
 }
 
 .linksproject {
-    border: 1px solid rgb(21, 255, 0);
     width: 313px;
     height: 72px;
     margin: 0px 0px 11px 18px;
@@ -47,7 +43,6 @@
 }
 
 .a1 {
-    border: 1px solid rgb(255, 0, 200);
     width: 105px;
     font-size: 10px;
     background-color: #5222D0;
@@ -57,12 +52,13 @@
     letter-spacing: 12%;
     padding: 8px 16px;
     display: flex;
-    justify-content: center;/* centraliza horizontalmente */
-    align-items: center;/* centraliza verticalmente */
+    justify-content: center;
+    /* centraliza horizontalmente */
+    align-items: center;
+    /* centraliza verticalmente */
 }
 
 .a2 {
-    border: 1px solid rgb(255, 0, 200);
     width: 113px;
     font-size: 10px;
     background-color: #5222D0;
@@ -72,12 +68,13 @@
     letter-spacing: 12%;
     padding: 8px 16px;
     display: flex;
-    justify-content: center;/* centraliza horizontalmente */
-    align-items: center;/* centraliza verticalmente */
+    justify-content: center;
+    /* centraliza horizontalmente */
+    align-items: center;
+    /* centraliza verticalmente */
 }
 
 .a3 {
-    border: 1px solid rgb(255, 0, 200);
     width: 71px;
     font-size: 10px;
     background-color: #5222D0;
@@ -87,12 +84,13 @@
     letter-spacing: 12%;
     padding: 8px 16px;
     display: flex;
-    justify-content: center;/* centraliza horizontalmente */
-    align-items: center;/* centraliza verticalmente */
+    justify-content: center;
+    /* centraliza horizontalmente */
+    align-items: center;
+    /* centraliza verticalmente */
 }
 
 .a4 {
-    border: 1px solid rgb(255, 0, 200);
     width: 74px;
     font-size: 10px;
     font-family: Montserrat;
@@ -102,8 +100,10 @@
     letter-spacing: 12%;
     padding: 8px 16px;
     display: flex;
-    justify-content: center;/* centraliza horizontalmente */
-    align-items: center;/* centraliza verticalmente */
+    justify-content: center;
+    /* centraliza horizontalmente */
+    align-items: center;
+    /* centraliza verticalmente */
 }
 
 
@@ -118,7 +118,7 @@
     color: #1F2626;
 }
 
-.aextra{
+.aextra {
     margin: 16px auto;
     width: 305px;
     padding: 17.5px 74px 18.5px;
@@ -129,4 +129,68 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+
+
+@media (min-width: 600px) {
+    .projects {
+        border: 1px solid rgb(255, 0, 0);
+        width: 1071px;
+        height: 787px;
+    }
+
+    .container{
+        border: 1px solid rgb(43, 255, 0);
+        width: 1044px;
+        height: 600px;
+        display: flex;
+        gap: 27px;
+    }
+
+
+    .divprojects {
+        border: 2px solid blue;
+        width: 522px;
+        height: 510px;
+        box-shadow: 2px 2px 32px 0 rgba(40, 38, 44, 0.15);
+        border-radius: 6px;
+    }
+
+    .divprojects img {
+        width: 100%;
+    }
+
+    .linksproject {
+        width: 399px;
+        height: 30px;
+        margin: 0px 0px 11px 18px;
+        display: flex;
+        gap: 12px;
+        /* espaçamento entre os itens */
+    }
+
+    .divprojects p {
+        border: 1px solid black;
+        width: 487px;
+        height: 103px;
+        margin: 19px 0px 11px 18px;
+        font-family: Montserrat;
+        letter-spacing: 4%;
+        font-size: 16px;
+        color: #1F2626;
+    }
+
+    .aextra {
+        margin: 0px auto;
+        width: 305px;
+        padding: 17.5px 74px 18.5px;
+        background-color: #5222D0;
+        border-radius: 6px;
+        font-family: Montserrat;
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
