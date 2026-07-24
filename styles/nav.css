@@ -46,3 +46,13 @@ nav {
     padding: 12px 20px 13px 20px;
     color: #fff
 }
+
+.menu .button{
+    width: 105px;
+    height: 45px;
+    background-color: #5222D0;
+    border-radius: 6px;
+    text-decoration: none;
+    padding: 12px 20px 13px 20px;
+    color: #fff
+}

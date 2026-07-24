@@ -3,6 +3,7 @@
 @import url(styles/herosection.css);
 @import url(styles/aboutme.css);
 @import url(styles/projects.css);
+@import url(styles/skills.css);
 
 :root{
     --bg-color-primary: #fafafa;

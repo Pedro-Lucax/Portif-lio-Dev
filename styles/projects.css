@@ -1,7 +1,7 @@
 .projects {
     width: 364px;
     height: 1295px;
-    margin: 300px auto;
+    margin: 300px 10px 100px 10px;
 }
 
 .projects h2 {
@@ -23,6 +23,7 @@
 .divprojects img {
     width: 363px;
     height: 296px;
+    border-radius: 6px;
 }
 
 .divprojects h3 {
