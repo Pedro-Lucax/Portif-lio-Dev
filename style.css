@@ -4,6 +4,7 @@
 @import url(styles/aboutme.css);
 @import url(styles/projects.css);
 @import url(styles/skills.css);
+@import url(styles/footer.css);
 
 :root{
     --bg-color-primary: #fafafa;
@@ -21,4 +22,3 @@ a{
     text-decoration: none;
     color: white;
 }
-

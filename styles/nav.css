@@ -1,5 +1,4 @@
 nav {
-    border: 1px solid red;
     display: flex;
     width: 100%;
     height: 99px;
@@ -11,7 +10,6 @@ nav {
 }
 
 .home {
-    border: 1px solid rgb(0, 81, 255);
     width: 50px;
     height: 20px;
     font-family: Montserrat;
@@ -23,7 +21,6 @@ nav {
 }
 
 .menu {
-    border: 1px solid rgb(21, 255, 0);
     width: 204px;
     height: 45px;
     display: flex;

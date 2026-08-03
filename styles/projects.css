@@ -1,7 +1,7 @@
 .projects {
     width: 364px;
     height: 1295px;
-    margin: 300px 10px 100px 10px;
+    margin: 300px auto 100px;
 }
 
 .projects h2 {
@@ -109,7 +109,6 @@
 
 
 .divprojects p {
-    border: 1px solid black;
     width: 339px;
     height: 120px;
     margin: 0px 0px 11px 18px;
@@ -136,13 +135,11 @@
 
 @media (min-width: 600px) {
     .projects {
-        border: 1px solid rgb(255, 0, 0);
         width: 1071px;
         height: 787px;
     }
 
     .container{
-        border: 1px solid rgb(43, 255, 0);
         width: 1044px;
         height: 600px;
         display: flex;
@@ -151,7 +148,6 @@
 
 
     .divprojects {
-        border: 2px solid blue;
         width: 522px;
         height: 510px;
         box-shadow: 2px 2px 32px 0 rgba(40, 38, 44, 0.15);
@@ -172,7 +168,6 @@
     }
 
     .divprojects p {
-        border: 1px solid black;
         width: 487px;
         height: 103px;
         margin: 19px 0px 11px 18px;
