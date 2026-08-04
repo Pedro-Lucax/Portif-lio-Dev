@@ -2,10 +2,11 @@ footer {
     width: 320px;
     height: 200px;
     font-family: 'Montserrat', sans-serif;
-    margin: 105px auto 0px auto;
+    margin: 0 auto 0px auto;
+    color: #1F2626;
 }
 
-.redes{
+.redes {
     width: 320px;
     height: 65px;
     display: flex;
@@ -16,7 +17,7 @@ footer {
     width: 46px;
     height: 60px;
     display: flex;
-    justify-content: center; /* centraliza horizontalmente */
+    justify-content: center;/* centraliza horizontalmente */
     align-items: center;/* centraliza verticalmente */
     flex-direction: column;
 }
@@ -26,17 +27,18 @@ footer {
     height: 38px;
 }
 
-.gmail p {
+.gmail a {
     font-size: 12px;
     letter-spacing: 12%;
     margin-top: 9px;
+    color: #1F2626;
 }
 
 .linkedin {
     width: 71px;
     height: 60px;
     display: flex;
-    justify-content: center; /* centraliza horizontalmente */
+    justify-content: center;/* centraliza horizontalmente */
     align-items: center;/* centraliza verticalmente */
     flex-direction: column;
 }
@@ -46,17 +48,18 @@ footer {
     height: 38px;
 }
 
-.linkedin p {
+.linkedin a {
     font-size: 12px;
     letter-spacing: 12%;
     margin-top: 9px;
+    color: #1F2626;
 }
 
 .github {
     width: 56px;
     height: 60px;
     display: flex;
-    justify-content: center; /* centraliza horizontalmente */
+    justify-content: center;/* centraliza horizontalmente */
     align-items: center;/* centraliza verticalmente */
     flex-direction: column;
 }
@@ -66,13 +69,14 @@ footer {
     height: 38px;
 }
 
-.github p {
+.github a {
     font-size: 12px;
     letter-spacing: 12%;
     margin-top: 9px;
+    color: #1F2626;
 }
 
-.grupo{
+.grupo {
     width: 161px;
     height: 17px;
     margin: 49px auto;
@@ -82,7 +86,11 @@ footer {
     gap: 48px;
 }
 
-.webdev{
+.grupo a{
+    color: #1F2626;
+}
+
+.webdev {
     width: 172px;
     height: 26px;
     margin: 49px auto;
@@ -91,12 +99,17 @@ footer {
     letter-spacing: 4%;
 }
 
+.webdev a{
+    color: #1F2626;
+}
+
 
 @media (min-width: 600px) {
     footer {
-    width: 320px;
-    height: 200px;
-    font-family: 'Montserrat', sans-serif;
-    margin: 217px auto 88px auto;
-}
+        width: 320px;
+        height: 200px;
+        font-family: 'Montserrat', sans-serif;
+        margin: 217px auto 88px auto;
+        color: #1F2626;
+    }
 }
